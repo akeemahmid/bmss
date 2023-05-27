@@ -94,7 +94,7 @@ const Contact = () => {
                         md: 'space-between'
                     }
                 }}>
-                    <input type='text' placeholder='Name'  name='subject' style={{
+                    <input type='text' placeholder='Name' required name='subject' style={{
                         width: {
                             xs: '100%',
                             md: '50%'
@@ -106,7 +106,7 @@ const Contact = () => {
                         color: 'whitesmoke',
                         fontSize: '20px'
                     }}/>
-                    <input type='email' placeholder='Email address' name='email'  style={{
+                    <input type='email' placeholder='Email address' required name='email'  style={{
                         width: {
                             xs: '100%',
                             md: '50%'
@@ -129,7 +129,7 @@ const Contact = () => {
                     width:'100%',
                     marginTop: '3%'
                 }}>
-                    <textarea rows='10' name='body'  style={{
+                    <textarea rows='10' name='body' required style={{
                         width:'94%',
                         border: '2px solid white',
                         background: 'transparent',
